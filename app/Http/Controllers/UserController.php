@@ -24,7 +24,7 @@ class UserController extends Controller
   }
 
   public function get_all_users(){
-  	return 'this is jest a test function ';
+  	return 'this is jest a test function test';
   }
   /*
    * Display all of the posts of a particular user
