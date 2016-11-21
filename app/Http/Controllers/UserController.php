@@ -22,6 +22,10 @@ class UserController extends Controller
     $title = User::find($id)->name;
     return view('home')->withPosts($posts)->withTitle($title);
   }
+
+  public function get_all_users(){
+  	return 'this is jest a test function ';
+  }
   /*
    * Display all of the posts of a particular user
    * 
