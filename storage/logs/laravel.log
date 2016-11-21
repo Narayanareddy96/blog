@@ -1,0 +1,57 @@
+[2016-11-21 05:02:44] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "Posts" is not defined. in /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('Posts')
+#1 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/narayana.com/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/narayana.com/public_html/blog/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-11-21 05:25:34] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "make" is not defined.
+
+Did you mean one of these?
+    make:notification
+    make:controller
+    make:middleware
+    make:migration
+    make:listener
+    make:provider
+    make:command
+    make:request
+    make:policy
+    make:seeder
+    make:event
+    make:model
+    make:auth
+    make:mail
+    make:test
+    make:job in /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('make')
+#1 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/narayana.com/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/narayana.com/public_html/blog/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-11-21 06:17:37] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "make:view" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:command
+    make:controller
+    make:event
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:model
+    make:notification
+    make:policy
+    make:provider
+    make:request
+    make:seeder
+    make:test
+    make:migration in /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('make:view')
+#1 /var/www/narayana.com/public_html/blog/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/narayana.com/public_html/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/narayana.com/public_html/blog/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
