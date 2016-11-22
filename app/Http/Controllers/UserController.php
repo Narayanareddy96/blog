@@ -26,12 +26,16 @@ class UserController extends Controller
   public function get_all_users(){
   	return 'this is jest a test function test';
   }
+  public function get_all_active_users(){
+  	return 'this is just a function for geting all active users for admin';
+  }
   /*
    * Display all of the posts of a particular user
    * 
    * @param Request $request
    * @return view
    */
+
   public function user_posts_all(Request $request)
   {
     //
@@ -40,6 +44,7 @@ class UserController extends Controller
     $title = $user->name;
     return view('home')->withPosts($posts)->withTitle($title);
   }
+
   /*
    * Display draft posts of a currently active user
    * 
